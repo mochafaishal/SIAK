@@ -70,7 +70,7 @@
                       <div class="content-panel">
                           <table id="example" class="table table-striped table-advance table-hover">
                               <h4 style="display:inline-flex;margin-right:30px">Reimburse</h4>
-                             <a href="Reimburse_baru.php" class="btn btn-default btn-sm">Reimburse Baru</a>
+                             <a href="reimburse_baru.php" class="btn btn-default btn-sm">Reimburse Baru</a>
                                     
                             <hr>
                               <thead>
