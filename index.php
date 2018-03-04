@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>SAP</title>
-
+    <title>Sistem Informasi Akuntansi</title>
+    <link rel="shortcut icon" href="images/akuntansi.png">
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!--external css-->
