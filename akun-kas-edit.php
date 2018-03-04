@@ -1,12 +1,9 @@
+<?php include 'include/header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Dashboard">
-    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
-
     <title>Akun Kas</title>
 
     <!-- Bootstrap core CSS -->
@@ -54,75 +51,7 @@
       MAIN SIDEBAR MENU
       *********************************************************************************************************************************************************** -->
       <!--sidebar start-->
-       <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu" id="nav-accordion">
-                  <li class="mt">
-                      <a class="dcjq-parent" href="index.php">
-                         <i class="fa fa-desktop"></i>
-                          <span>Ringkasan</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="" href="rekening-bank.php">
-                         <i class="fa fa-bank"></i>
-                          <span>Rekening BANK</span>
-                          
-                      </a>
-                  </li>
-                   <li class="dcjq-parent">
-                      <a class="" href="transaksi_bank.php">
-                         <i class="fa fa-briefcase"></i>
-                          <span>Transaksi BANK</span>
-                      </a>
-                  </li>
-                   <li class="dcjq-parent">
-                      <a class="active" href="akun-kas.php">
-                         <i class="fa fa-balance-scale"></i>
-                          <span>Akun KAS</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="" href="transaksi_kas.php">
-                         <i class="fa fa-clipboard"></i>
-                          <span>Transaksi KAS</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="Inter_Account_Transfers.php">
-                         <i class="fa fa-arrows"></i>
-                          <span>Inter Account Transfers</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="Reimburse.php">
-                         <i class="fa fa-book"></i>
-                          <span>Reimburse</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="Pelanggan.php">
-                         <i class="fa fa-child"></i>
-                          <span>Pelanggan</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="penawaran_penjualan.php">
-                         <i class="fa fa-address-book"></i>
-                          <span>Penawaran Penjualan</span>
-                      </a>
-                  </li>
-                  <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="pesanan_penjualan.php">
-                         <i class="fa fa-archive"></i>
-                          <span>Pesanan Penjualan</span>
-                      </a>
-                  </li>
-              </ul>
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
+      <?php include 'include/aside.php'; ?>
       <!--sidebar end-->
       
       <!-- **********************************************************************************************************************************************************
@@ -193,6 +122,9 @@
       });
       $('#example').DataTable();
   </script>
+  <?php include 'include/footer.php'; ?>
+
+
   </body>
 </html>
  
