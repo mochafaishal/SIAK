@@ -72,13 +72,13 @@
             <tbody>
                 <tr>
                     <td style="vertical-align: top; padding-right: 5px">
-                        <div class="form-group"><label>Nama</label><input class="form-control input-sm" style="width: 300px" type="text"></div>
+                        <div class="form-group"><label>Nama</label><input id="nama" class="form-control input-sm" style="width: 300px" type="text"></div>
                     </td>
                     <td style="vertical-align: top; padding-right: 5px">
-                        <div class="form-group"><label>Kode</label><input class="form-control input-sm" style="width: 100px" placeholder="Opsional" type="text"></div>
+                        <div class="form-group"><label>Kode</label><input id="kode" class="form-control input-sm" style="width: 100px" placeholder="Opsional" type="text"></div>
                     </td>
                     <td style="vertical-align: top">
-                        <div class="form-group"><label>Pagu kredit</label><input class="form-control input-sm" style="width: 100px" placeholder="Opsional" type="text"></div>
+                        <div class="form-group"><label>Pagu kredit</label><input id="pagu" class="form-control input-sm" style="width: 100px" placeholder="Opsional" type="text"></div>
                     </td>
                 </tr>
             </tbody>
@@ -87,11 +87,8 @@
         <div class="form-group" style="display: none;"><span style="padding: 5px; border: 1px solid #ccc; background-color: #ffffdb; font-size: 12px; color: #555; line-height: 150%; border-radius: 3px">Anda akan dapat menentukan saldo awal setelah menentukan <b> Tanggal mulai</b> didalam <b>Pengaturan</b> tab</span></div>
         </div>
         <div></div><br/>
-        <div class="btn-group"><input id="btnCreate" class="btn btn-primary" style="font-weight: bold" value="Buat" type="button"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><input id="btnCreateAndAddAnother" class="btn btn-link" value="Buat &amp; Tambahkan Baru" type="button"></li>
-            </ul>
-        </div>
+                          <div class="btn-group"><input class="btn btn-primary" style="font-weight: bold" value="Buat" id="insert" onclick="submit();" type="button">
+                          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button><ul class="dropdown-menu"><li><input id="btnCreateAndAddAnother" class="btn btn-link" value="Buat &amp; Tambahkan Baru" type="button"></li></ul></div>
                       </div><!-- /content-panel -->
                   </div><!-- /col-md-12 -->
               </div><!-- /row -->
@@ -122,6 +119,9 @@
       $(function(){
           $('select.styled').customSelect();
       });
+
+      function submit(){$("#insert").val("Menyimpan..");var a=$("#nama").val(),n=$("#kode").val(),e=$("#pagu").val();setTimeout(function(){$.ajax({url:"proses/insert-rekening-bank.php",type:"POST",data:"nama="+a+"&kode="+n+"&pagu="+e,success:function(a){window.history.go(-1)}})},1200)}
+
       $('#example').DataTable();
       $('.checkbox input').prop('checked', false);
       $('.checkbox input').change(function(){
@@ -131,6 +131,7 @@
           $('.checkbox .form-group').css('display','none');
         }
       });
+
   </script>
   <?php include 'include/footer.php'; ?>
   </body>

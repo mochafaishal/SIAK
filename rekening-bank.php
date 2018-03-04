@@ -1,5 +1,8 @@
+<?php
 
-<?php include 'include/header.php'; ?>
+include 'include/header.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -82,17 +85,27 @@
                               </tr>
                               </thead>
                               <tbody>
+                              <?php
+
+                                  $sql = "SELECT * FROM rekening_bank";
+
+                                  $result = mysqli_query($con, $sql);
+                                  if(mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+                              echo '
                               <tr>
-                                  <td><a href="basic_table.html#">Company Ltd</a></td>
-                                  <td class="hidden-phone">Lorem Ipsum dolor</td>
-                                  <td>12000.00$ </td>
+                                  <td><a href="basic_table.html#">'.$row['kode'].'</a></td>
+                                  <td class="hidden-phone">'.$row['nama'].'</td>
+                                  <td>'.$row['kode'].' </td>
                                   <td><span class="label label-info label-mini">Due</span></td>
                                   
                                   <td><span class="label label-info label-mini">Due</span></td>
                                   <td>
                                       <a href="ubah-rekening-bank.php?no=1" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></a>
                                   </td>
-                              </tr>
+                              </tr>';
+    }}
+                              ?>
                               </tbody>
                           </table>
                       </div><!-- /content-panel -->
