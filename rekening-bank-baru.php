@@ -5,9 +5,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="Dashboard">
-    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
     <title>Rekening Bank</title>
 
@@ -86,7 +83,8 @@
                 </tr>
             </tbody>
         </table>
-        <div class="checkbox"><label><input style="margin-top: 3px" data-bind="checked: HasStartingBalance" type="checkbox">Saldo awal</label>
+        <div class="checkbox"><label><input style="margin-top: 3px" type="checkbox">Saldo awal</label>
+        <div class="form-group" style="display: none;"><span style="padding: 5px; border: 1px solid #ccc; background-color: #ffffdb; font-size: 12px; color: #555; line-height: 150%; border-radius: 3px">Anda akan dapat menentukan saldo awal setelah menentukan <b> Tanggal mulai</b> didalam <b>Pengaturan</b> tab</span></div>
         </div>
         <div></div><br/>
         <div class="btn-group"><input id="btnCreate" class="btn btn-primary" style="font-weight: bold" value="Buat" type="button"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
@@ -125,9 +123,15 @@
           $('select.styled').customSelect();
       });
       $('#example').DataTable();
+      $('.checkbox input').prop('checked', false);
+      $('.checkbox input').change(function(){
+        if(this.checked) {
+          $('.checkbox .form-group').css({'display' : 'block', 'margin-left' : '20px', 'margin-top' : '10px'});
+        } else {
+          $('.checkbox .form-group').css('display','none');
+        }
+      });
   </script>
   <?php include 'include/footer.php'; ?>
   </body>
 </html>
- 
- 
