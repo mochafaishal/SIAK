@@ -215,7 +215,7 @@
                       </div><!-- /content-panel -->
                   </div><!-- /col-md-12 -->
               </div><!-- /row -->
-
+                  </div></div>
     </section><! --/wrapper -->
       </section><!-- /MAIN CONTENT -->
 
