@@ -7,7 +7,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>Penawaran Penjualan</title>
+    <title>Pesanan Penjualan</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -108,13 +108,13 @@
                       </a>
                   </li>
                   <li class="dcjq-parent">
-                      <a class="active" href="penawaran_penjualan.php">
+                      <a class="" href="penawaran_penjualan.php">
                          <i class="fa fa-address-book"></i>
                           <span>Penawaran Penjualan</span>
                       </a>
                   </li>
                   <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="pesanan_penjualan.php">
+                      <a class="active" href="pesanan_penjualan.php">
                          <i class="fa fa-archive"></i>
                           <span>Pesanan Penjualan</span>
                       </a>
@@ -134,24 +134,24 @@
               <div class="row mt">
                   <div class="col-md-12">
                       <div class="content-panel">
-                        <h3>Penawara Penjualan</h3>
+                        <h3>Pesanan Penjualan</h3>
                         <hr>
                        <div class="">
-   <div class="">
+  <div class="panel panel-default">
+   <div class="panel-heading">
       <table style="border-collapse: separate; width: 100%">
          <tbody>
             <tr>
-               <td style="width: 1px; white-space: nowrap"><span class="header" style="margin-right: 10px">Penawaran Penjualan</span></td>
+               <td style="width: 1px; white-space: nowrap"><span class="header" style="margin-right: 10px">Pesanan Penjualan</span></td>
                <td style="border-right: 1px solid #ddd; padding-right: 5px; width: 1px; white-space: nowrap">
-                  <a href="sales-quote-form?Referrer=fe71496f-72f9-4a85-bb5a-b86190598ef9&amp;Key=2bc2b446-f60f-4d17-af92-498224a0deca&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b" class="btn btn-default btn-sm" style="font-weight: bold; margin-right: 5px">Ubah</a><a href="sales-quote-form?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;AppendKeyToReferrer=True&amp;Referrer=ba0ea332-b436-4c9f-901b-da4a60c6215f&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b" class="btn btn-default btn-sm" style="font-weight: bold; margin-right: 5px">Duplikasi</a>
+                  <a href="sales-order-form?Referrer=0d8084a0-a488-43da-9f25-6b864eff176e&amp;Key=d1e8125c-2087-475f-9482-b1184e314093&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b" class="btn btn-default btn-sm" style="font-weight: bold; margin-right: 5px">Ubah</a><a href="sales-order-form?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;AppendKeyToReferrer=True&amp;Referrer=712d2f5f-22cb-4bfb-948f-9dd54ad60d06&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b" class="btn btn-default btn-sm" style="font-weight: bold; margin-right: 5px">Duplikasi</a>
                   <div class="btn-group">
                      <button class="btn btn-default dropdown-toggle btn-sm" style="font-weight: bold; margin-right: 5px" data-toggle="dropdown">Salin ke<span class="caret" style="margin-left: 5px"></span></button>
                      <ul class="dropdown-menu">
-                        <li><a href="sales-order-form?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;AppendKeyToReferrer=True&amp;Referrer=712d2f5f-22cb-4bfb-948f-9dd54ad60d06&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Input Pesanan Penjualan Baru</a></li>
-                        <li><a href="sales-invoice-form?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;AppendKeyToReferrer=True&amp;Referrer=65cea3a7-e7cb-4bcf-a194-2d59f448ff64&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Faktur Penjualan</a></li>
-                        <li><a href="purchase-order-form?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;AppendKeyToReferrer=True&amp;Referrer=5b5739e7-af75-4c11-9104-daea4974bc6f&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Pesanan Pembelian</a></li>
-                        <li><a href="purchase-invoice-form?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;AppendKeyToReferrer=True&amp;Referrer=093a7599-4c21-4168-a0fe-26c2a8f77312&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Faktur Pembelian</a></li>
-                        <li><a href="delivery-note-form?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;AppendKeyToReferrer=True&amp;Referrer=d7a08bb4-9ae6-48e8-ad0b-4794e82f3038&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Surat Jalan</a></li>
+                        <li><a href="sales-invoice-form?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;AppendKeyToReferrer=True&amp;Referrer=65cea3a7-e7cb-4bcf-a194-2d59f448ff64&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Faktur Penjualan</a></li>
+                        <li><a href="purchase-order-form?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;AppendKeyToReferrer=True&amp;Referrer=5b5739e7-af75-4c11-9104-daea4974bc6f&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Pesanan Pembelian</a></li>
+                        <li><a href="purchase-invoice-form?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;AppendKeyToReferrer=True&amp;Referrer=093a7599-4c21-4168-a0fe-26c2a8f77312&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Faktur Pembelian</a></li>
+                        <li><a href="delivery-note-form?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;AppendKeyToReferrer=True&amp;Referrer=d7a08bb4-9ae6-48e8-ad0b-4794e82f3038&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b">Buat Surat Jalan</a></li>
                      </ul>
                   </div>
                </td>
@@ -173,7 +173,7 @@
                                     </tr>
                                     <tr>
                                        <td style="vertical-align: middle; width: 1px; white-space: nowrap"><label>Judul</label></td>
-                                       <td><input type="text" id="email-modal-subject" class="form-control input-sm" style="width: 100%" name="Subject" value="Penawaran Penjualan" placeholder="Penawaran Penjualan"></td>
+                                       <td><input type="text" id="email-modal-subject" class="form-control input-sm" style="width: 100%" name="Subject" value="Pesanan Penjualan" placeholder="Pesanan Penjualan"></td>
                                     </tr>
                                     <tr>
                                        <td colspan="2"><textarea id="email-modal-body" class="form-control input-sm" style="width: 100%; height: 150px" name="Body" spellcheck="true"></textarea></td>
@@ -253,7 +253,7 @@
                      <table style="margin-bottom: 20px">
                         <tbody>
                            <tr>
-                              <td style="font-weight: bold; font-size: 32px">jakt</td>
+                              <td style="font-weight: bold; font-size: 32px">Pesanan Penjualan</td>
                            </tr>
                         </tbody>
                      </table>
@@ -267,7 +267,9 @@
                               </td>
                               <td style="border-right-width: 1px; padding-right: 20px; text-align: right">
                                  <div style="font-weight: bold">Tanggal diterbitkan</div>
-                                 <div style="margin-bottom: 10px">28-Feb 18</div>
+                                 <div style="margin-bottom: 10px">4-Mar 18</div>
+                                 <div style="font-weight: bold">Tanggal Kirim</div>
+                                 <div style="margin-bottom: 10px">23-Mar 18</div>
                                  <div style="font-weight: bold">Referensi</div>
                                  <div style="margin-bottom: 10px">1</div>
                               </td>
@@ -282,7 +284,7 @@
                            </tr>
                         </tbody>
                      </table>
-                     <div style="font-size: 14px; font-weight: bold; margin-bottom: 20px"></div>
+                     <div style="font-size: 14px; font-weight: bold; margin-bottom: 20px">1</div>
                   </td>
                </tr>
                <tr>
@@ -292,7 +294,7 @@
             </thead>
             <tbody>
                <tr>
-                  <td style="padding: 5px 10px; text-align: left; border-left-width: 1px">&nbsp;</td>
+                  <td style="padding: 5px 10px; text-align: left; border-left-width: 1px">12</td>
                   <td style="padding: 5px 10px; text-align: right; border-left-width: 1px; border-right-width: 1px; white-space: nowrap; width: 80px">10,00</td>
                </tr>
                <tr>
@@ -302,6 +304,24 @@
                <tr>
                   <td colspan="1" style="padding: 5px 10px; text-align: right; font-weight: bold">Total</td>
                   <td style="border-left-width: 1px; white-space: nowrap; border-right-width: 1px; border-bottom-width: 1px; padding: 5px 10px; text-align: right; font-weight: bold">10,00</td>
+               </tr>
+               <tr>
+                  <td colspan="99">
+                     <div style="font-weight: bold; padding-top: 20px">Alamat Pengiriman</div>
+                     <div>111</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="99">
+                     <div style="font-weight: bold; padding-top: 20px">Instruksi Pengiriman</div>
+                     <div>1111</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td colspan="99">
+                     <div style="font-weight: bold; padding-top: 20px">Diotorisasi oleh</div>
+                     <div>2wdd</div>
+                  </td>
                </tr>
             </tbody>
          </table>
@@ -317,7 +337,7 @@
                <td style="border-right: 1px solid #ddd; padding-right: 5px">
                   <div id="attachments" class="btn-toolbar"></div>
                </td>
-               <td style="border-left: 1px solid #fff; padding-left: 10px"><span class="btn btn-default btn-sm btn-file" style="font-weight: bold">Lampiran Baru&nbsp;…<input type="file" id="fileupload" name="files" data-url="new-attachment?Source=2bc2b446-f60f-4d17-af92-498224a0deca&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b"></span></td>
+               <td style="border-left: 1px solid #fff; padding-left: 10px"><span class="btn btn-default btn-sm btn-file" style="font-weight: bold">Lampiran Baru&nbsp;…<input type="file" id="fileupload" name="files" data-url="new-attachment?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b"></span></td>
             </tr>
          </tbody>
       </table>
@@ -360,7 +380,7 @@
               alert(msg.responseText);
           })
           .success(function(msg) {
-              window.location.href = 'view-attachment?Referrer=fe71496f-72f9-4a85-bb5a-b86190598ef9&FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b&Key='+key;
+              window.location.href = 'view-attachment?Referrer=0d8084a0-a488-43da-9f25-6b864eff176e&FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b&Key='+key;
           });    
       };
       function deleteFile(e) {

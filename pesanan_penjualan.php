@@ -7,7 +7,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>Penawaran Penjualan</title>
+    <title>Pesanan Penjualan</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -108,13 +108,13 @@
                       </a>
                   </li>
                   <li class="dcjq-parent">
-                      <a class="active" href="penawaran_penjualan.php">
+                      <a class="" href="penawaran_penjualan.php">
                          <i class="fa fa-address-book"></i>
                           <span>Penawaran Penjualan</span>
                       </a>
                   </li>
                   <li class="dcjq-parent">
-                      <a class="dcjq-parent" href="pesanan_penjualan.php">
+                      <a class="active" href="pesanan_penjualan.php">
                          <i class="fa fa-archive"></i>
                           <span>Pesanan Penjualan</span>
                       </a>
@@ -135,8 +135,8 @@
                   <div class="col-md-12">
                       <div class="content-panel">
                           <table id="example" class="table table-striped table-advance table-hover">
-                              <h4 style="display:inline-flex;margin-right:30px">Penawaran Penjualan</h4>
-                             <a href="Reimburse_baru.php" class="btn btn-default btn-sm">Penawaran Penjualan</a>
+                              <h4 style="display:inline-flex;margin-right:30px">Pesanan Penjualan</h4>
+                             <a href="pesanan_penjualan_baru.php" class="btn btn-default btn-sm">Pesanan Penjualan Baru</a>
                                     
                             <hr>
                               <thead>
@@ -144,6 +144,7 @@
                                   <th>Tanggal</th>
                                   <th>#</th>
                                   <th>Pelanggan</th>
+                                  <th>Deskripsi</th>
 
                               
                                   <th>Jumlah</th>
@@ -157,12 +158,12 @@
                                   <td class="hidden-phone">Lorem Ipsum dolor</td>
                                   <td>12000.00$ </td>
                                   <td><span class="label label-info label-mini">Due</span></td>
-                                  
+                                  <td>haha</td>
                                   
                                   
                                   <td>
-                                      <a href="penawaran-penjualan-lihat.php" class="btn btn-success btn-xs"><i class="fa fa-check"></i></a>
-                                      <a href="penawaran-penjualan-ubah.php" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></a>
+                                      <a href="pesanan_penjualan_lihat.php" class="btn btn-success btn-xs"><i class="fa fa-check"></i></a>
+                                      <a href="pesanan_penjualan_ubah.php" class="btn btn-primary btn-xs"><i class="fa fa-pencil"></i></a>
                                   </td>
                               </tr>
                               </tbody>
