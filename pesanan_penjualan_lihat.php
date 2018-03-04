@@ -142,7 +142,7 @@
       <table style="border-collapse: separate; width: 100%">
          <tbody>
             <tr>
-               <td style="width: 1px; white-space: nowrap"><span class="header" style="margin-right: 10px">Pesanan Penjualan</span></td>
+               <td style="width: 1px; white-space: nowrap"><span class="header" style="margin-right: 10px"></span></td>
                <td style="border-right: 1px solid #ddd; padding-right: 5px; width: 1px; white-space: nowrap">
                   <a href="sales-order-form?Referrer=0d8084a0-a488-43da-9f25-6b864eff176e&amp;Key=d1e8125c-2087-475f-9482-b1184e314093&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b" class="btn btn-default btn-sm" style="font-weight: bold; margin-right: 5px">Ubah</a><a href="sales-order-form?Source=d1e8125c-2087-475f-9482-b1184e314093&amp;AppendKeyToReferrer=True&amp;Referrer=712d2f5f-22cb-4bfb-948f-9dd54ad60d06&amp;FileID=a5578f2c-1b18-4b54-8840-bf278d5b705b" class="btn btn-default btn-sm" style="font-weight: bold; margin-right: 5px">Duplikasi</a>
                   <div class="btn-group">
